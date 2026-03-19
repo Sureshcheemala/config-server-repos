@@ -22,7 +22,6 @@ eureka:
     prefer-ip-address: true
     hostname: 127.0.0.1
     instance-id: ${spring.application.name}:${random.value}
-    non-secure-port: ${local.server.port}
 
 resilience4j:
   circuitbreaker:
